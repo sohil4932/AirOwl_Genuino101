@@ -76,7 +76,7 @@ void LedColor(int red, int blue, int green){
   analogWrite(PIN3, green);
   }
 
-void getWinsenData(void)                //function for getting data from sensor
+void getSensorData(void)                //function for getting data from sensor
 {
   byte i = 0;
   int checksum = 0;
